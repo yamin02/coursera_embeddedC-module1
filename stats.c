@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.c>
+ * @brief <This is a c program for calculating some stats >
  *
- * <Add Extended Description Here>
+ * <The program includes some statistical function from the header file and executes it upon the given array.>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Yaminul Hoque>
+ * @date <26/05/2020>
  *
  */
 
@@ -37,6 +37,9 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
+  sort_array(test,SIZE);
+  print_array(test,SIZE);
+  print_statistics(test,SIZE);
 
 }
 

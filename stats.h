@@ -9,19 +9,51 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file <stats.h>
+ * @brief <This is a C header file which contains some statistical functions>
  *
  * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Yaminul Hoque>
+ * @date <26/05/2020>
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
 /* Add Your Declarations and Function Comments here */ 
+void print_array(unsigned char arr[], unsigned int size ){
+    //function body
+}
+void swap(unsigned int *a1 , unsigned int *a2){
+    //function body
+}
+unsigned find_median(unsigned char arr[], unsigned int size){
+    unsigned int median;
+    //function body
+    return median;
+}
+unsigned int find_mean(unsigned char arr[], unsigned int size){
+    unsigned int mean;
+    //function body
+    return mean;
+}
+unsigned int find_maximum(unsigned char arr[], unsigned int size){
+    unsigned int max;
+    //function body
+    return max;
+}
+unsigned int find_minimum(unsigned char arr[], unsigned int size){
+    unsigned int min;
+    // function body
+    return max;
+}
+void sort_array(unsigned char arr[], unsigned int size){
+    //function body
+}
+void print_statistics(unsigned char arr[], unsigned int size){
+    //function body
+}
 
 /**
  * @brief <Add Brief Description of Function Here>
